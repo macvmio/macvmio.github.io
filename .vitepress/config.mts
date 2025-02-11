@@ -8,21 +8,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
     ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/macvmio' },
+      { icon: 'slack', link: 'https://join.slack.com/t/macvmio/shared_invite/zt-2ucambk2r-Ij470jYyavnobe5hyYClHQ' },
+      { icon: 'x', link: 'https://x.com/macvmio' },
+      { icon: 'youtube', link: 'https://www.youtube.com/@macvmio' }
     ]
   }
 })
