@@ -2,7 +2,7 @@
 .DS_Store
 
 # npm
-node_modules
+node_modules/
 
 # VitePress
 .vitepress/dist/
