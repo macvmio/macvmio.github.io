@@ -36,10 +36,19 @@ hero:
     margin-top: 0rem; /* Adjust this value to control the space between the image and title */
   }
   
-  /* Remove underline and inherit the natural text color for links */
   .columns a {
     text-decoration: none;
     color: inherit;
+    display: block;      /* Ensures the link is a block element */
+    overflow: hidden;    /* Hides the overflowing part of the zoomed image */
+  }
+
+  .columns a img {
+    transition: transform 0.3s ease;  /* Smooth transition for the zoom effect */
+  }
+
+  .columns a:hover img {
+    transform: scale(1.05);  /* Slightly zoom in the image */
   }
 </style>
 
