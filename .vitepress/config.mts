@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "macvm",
+  title: "macOS Virtualization",
   description: "Open-Source macOS Virtualization Solutions",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
