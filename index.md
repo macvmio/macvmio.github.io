@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "macvm.io"
+  name: "macvm"
   text: "Open-Source macOS Virtualization Solutions"
   tagline: Whether you're a developer, DevOps engineer, or simply curious about macOS virtualization, there's a place for you here!
   # actions:
